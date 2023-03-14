@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <img src="profile pic.jpg" alt="profile pic" style="width:24%">
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="https://leetcode.com/Nuclear_1784/" target="_main">Leetcode</a>
+        <a href="https://github.com/SaiAryan1784" target="_main">Github</a>
+        <a href="https://aryannotes.atlassian.net/wiki/home" target="_main">My Learnings</a>
+        <a href="https://twitter.com/NUCLEAR1784" target="_main">Twitter</a>
+        <a href="https://www.linkedin.com/in/sai-aryan-goswami-a38924249/" target="_main">linkedin</a>
+      </div>
+      <div id="button">
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+      </div>
+       <div id="heading">
+        <h1>I am Sai Aryan Goswami</h1>
+        <p>I am a coding enthusiast with few projects on html and css.
+          I have learnt C language and done around 180+ Qs on leetcode...
+        </p>
+       </div>
+</body>
+<script>
+    /* Set the width of the side navigation to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+/* Set the width of the side navigation to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</html>
